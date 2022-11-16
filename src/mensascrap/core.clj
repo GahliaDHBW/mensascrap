@@ -1,7 +1,9 @@
-(ns mensascrap.core)
+(ns mensascrap.core
+  (:require [cheshire.core :refer :all])
+  (:require [clj-http.client :as client])
+  (:require [hickory.core :refer :all])
+)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
-(foo "hi")
+(def raw (slurp "sample.html"))
+(as-hickory (parse raw))
+(as-hiccup (parse raw))
