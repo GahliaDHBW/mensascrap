@@ -1,0 +1,60 @@
+{
+  "head": {
+    "api-version": "v1",
+    "last-updated": "Mon 21 Nov 14:38:05 CET 2022"
+  },
+  "body": {
+    "erzbergerstraße": {
+      "monday": {
+        "meal1": {
+          "name": "MontagsBratwurst",
+          "price": 3.5
+        },
+	"meal2": {
+          "name": "Wurstbraten",
+          "price": 5.3
+	}
+      },
+      "tuesday": {
+        "meal1": {
+          "name": "DienstagsBratwurst",
+          "price": 3.5
+        },
+	"meal2": {
+          "name": "Wurstbraten",
+          "price": 5.3
+	}
+      },
+      "wednesday": {
+        "meal1": {
+          "name": "Bratwurst",
+          "price": 3.5
+        },
+	"meal2": {
+          "name": "Wurstbraten",
+          "price": 5.3
+	}
+      },
+      "thursday": {
+        "meal1": {
+          "name": "Bratwurst",
+          "price": 3.5
+        },
+	"meal2": {
+          "name": "Wurstbraten",
+          "price": 5.3
+	}
+      },
+      "friday": {
+        "meal1": {
+          "name": "Bratwurst",
+          "price": 3.5
+        },
+	"meal2": {
+          "name": "Wurstbraten",
+          "price": 5.3
+	}
+      }
+    }
+  }
+}
