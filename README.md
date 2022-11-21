@@ -1,22 +1,13 @@
 # mensascrap
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library and data source designed to provide easily parseable meal data for the canteens in Karlsruhe, Germany.
 
 ## Usage
 
-FIXME
+1. Pull the data from the [data source](https://port19x.github.io/mensascrap/master.json)
+2. Parse it into a native data structure you can work with. Prefer extensible datastructures (flexible array lengths).
+3. Build your application
 
-## License
+## Status
 
-Copyright © 2022 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+The current master.json provides only mock details for the canteen erzbergerstraße, 5 days, 2 meals each
